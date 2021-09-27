@@ -13,6 +13,7 @@ class DoaHarianPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: orangeColor,
       body: SafeArea(
+        bottom: false,
         child: SingleChildScrollView(
           scrollDirection: Axis.vertical,
           child: Column(
